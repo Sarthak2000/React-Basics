@@ -45,7 +45,7 @@ function BigHello() {
     );
 }
 function Hello(props) {
-    return (<h1>Hello From {props.name} Components</h1>)
+    return (<h2>Hello From {props.name} Components</h2>)
 }
 ReactDOM.render(<BigHello></BigHello>, document.querySelector("#root"));
 
